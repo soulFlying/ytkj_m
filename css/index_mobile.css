@@ -1,0 +1,593 @@
+body,html{
+    min-width: 320px;
+    max-width: 640px;
+    margin: 0 auto;
+    font-family: "Micrisoft Ya Hei";
+    margin: 0 auto;
+}
+ul{
+    list-style: none;
+}
+.oul a{
+    text-decoration: none;
+}
+img{
+     display: block;
+ }
+.content{
+    width: 100%;
+    color: #fff;
+    overflow: hidden;
+}
+.content1{
+    position: relative;
+    height: 10rem;
+    background: url("http://img.ppx.easyto.com/images/front/imgWap/bg1.png") no-repeat center;
+    background-size: 100% 100%;
+}
+.header{
+    padding: 0 0.3rem;
+    position: absolute;
+    left: 0;
+    top: 2.6%;
+    width: 100%;
+    min-width: 320px;
+    max-width: 640px;
+}
+.nav{
+    height: 0.5rem;
+    color: #fff;
+    font-size: 0.24rem;
+}
+.nav > *{
+    float: left;
+}
+.nav img{
+    width: 0.4rem;
+    height: 0.4rem;
+    vertical-align: middle;
+}
+.nav ul li{
+    float: left;
+    background: url("http://img.ppx.easyto.com/images/front/imgWap/logo.gif") no-repeat center left;
+    background-size: 0.74rem 0.39rem;
+    padding: 0 0.3rem 0 0.6rem;
+}
+.nav ul li:nth-child(2){
+    background: url("http://img.ppx.easyto.com/images/front/imgWap/tel_icon.png") no-repeat center left;
+    background-size: 0.37rem 0.37rem;
+    padding: 0 0.3rem 0 0.5rem;
+}
+.nav_btn{
+    width: 0.35rem;
+    height: 0.28rem;
+    background: url("http://img.ppx.easyto.com/images/front/imgWap/nav_btn.png") no-repeat center;
+    background-size: 100% 100%;
+    margin: 0.04rem 0 0 0.3rem;
+}
+.navList{
+    position: absolute;
+    top: 0.5rem;
+    right: 0;
+    width: 3.2rem;
+    height: 2rem;
+    background: url("http://img.ppx.easyto.com/images/front/imgWap/bg_nav.png") no-repeat center;
+    background-size: 100% 100%;
+    z-index: 10;
+    display: none;
+}
+.navList ul{
+    width: 83%;
+    margin: 0.2rem 0 0 0.2rem;
+}
+.navList ul li{
+    font-size: 0.28rem;
+    color: #fff;
+    font-weight: 500;
+    padding: 0.12rem 0;
+}
+/*.navList ul a:first-child li{
+    border-bottom: 1px solid #fff;
+}*/
+.navList ul li em{
+    display: inline-block;
+    vertical-align: middle;
+    width: 0.35rem;
+    height: 0.3rem;
+    background: url("http://img.ppx.easyto.com/images/front/imgWap/nav_icon1.png") no-repeat center;
+    background-size: 100% 100%;
+    margin: 0 0.16rem 0 0.1rem;
+}
+.navList ul a:first-child em{
+    background: url("http://img.ppx.easyto.com/images/front/imgWap/nav_icon2.png") no-repeat center;
+    background-size: 100% 100%;
+}
+.mask{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    display: none;
+}
+.content1 >img{
+    display: block;
+    margin: 0 auto;
+}
+.content1 img:nth-child(2){
+    width: 79%;
+    height: auto;
+    margin-top: 47.5%;
+}
+.content1 img:nth-child(3){
+    width: 70%;
+    height: auto;
+    margin-top: 4%;
+}
+/*模块二*/
+.robot{
+    height: 7rem;
+    background: url("http://img.ppx.easyto.com/images/front/imgWap/robot.png") no-repeat center;
+    background-size: 100% 100%;
+}
+.title_name{
+    font-size: 0.15rem;
+    text-align: center;
+    overflow: hidden;
+    padding-left: 0.28rem;
+    padding-top: 0.31rem;
+}
+.title_name > *{
+    float: left;
+}
+.title_name >img{
+    width: 0.9rem;
+    display: inline-block;
+    margin-top: 0.17rem;
+}
+.title_name >h1{
+    padding: 0 0.25rem;
+}
+.skills{
+    width: 100%;
+    height: 12rem;
+    background: linear-gradient(top,#0073AC,#006EB0);
+    background: -webkit-linear-gradient(top,#0073AC,#006EB0,#085D9D);
+    position: relative;
+}
+.skills >div{
+    width: 4.32rem;
+    height: 3.14rem;
+    background: url("http://img.ppx.easyto.com/images/front/imgWap/skill1.png") no-repeat center;
+    background-size: 100% 100%;
+    left: 0.2rem;
+    position: absolute;
+    left: 0.12rem;
+}
+.skills >div:nth-child(1){
+    top: 0.12rem;
+}
+.skills >div:nth-child(2){
+    left: 3.1rem;
+    top: 1.66rem;
+}
+.skills >div:nth-child(3){
+    width: 5.91rem;
+    height: 4.15rem;
+    background: url("http://img.ppx.easyto.com/images/front/imgWap/skill3.png") no-repeat center;
+    background-size: 100% 100%;
+    top: 4.4rem;
+}
+.skills div:nth-child(3) h3{
+    padding: 0 0.5rem 0 1.5rem;
+    line-height: 1.3rem;
+}
+.skills >div:nth-child(4){
+    left: 3.1rem;
+    top: 7.58rem;
+}
+.skills >div:nth-child(4) h3{
+    padding: 0 0rem 0 0.7rem;
+}
+.skills >div:nth-child(5){
+    width: 4.29rem;
+    height: 3.89rem;
+    background: url("http://img.ppx.easyto.com/images/front/imgWap/skill2.png") no-repeat center;
+    background-size: 100% 100%;
+    top: 9.65rem;
+}
+.skills div:nth-child(5) p{
+    padding: 23% 21% 0 19%;
+}
+.skills div:nth-child(5) h3{
+    line-height: 1.5rem;
+    padding: 0 0.5rem 0 1.4rem;
+}
+.skills p{
+    font-size: 0.21rem;
+    padding: 17% 37% 0 15%;
+}
+.skills h3{
+    font-size: 0.32rem;
+    font-weight: normal;
+    line-height: 1rem;
+    padding: 0 0.5rem 0 0.93rem;
+}
+.skills_bot{
+    width: 100%;
+    height: 3.2rem;
+    background: url("http://img.ppx.easyto.com/images/front/imgWap/skills_bot_bg.png") no-repeat center;
+    background-size: 100% 100%;
+}
+.content3_title{
+    height: 1.28rem;
+    width: 100%;
+    background: url("http://img.ppx.easyto.com/images/front/imgWap/ability_bg.png") no-repeat center;
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+.content3 .title_name{
+    padding-left: 1.43rem;
+    margin-top: 6.5%;
+}
+.ability{
+    width: 100%;
+    height: 11.1rem;
+    background: #112348;
+    font-size: 0.22rem;
+    text-align: center;
+    overflow: hidden;
+    padding: 0.6rem 0.22rem;
+}
+.ability img{
+    display: block;
+    width: 0.9rem;
+    height: auto;
+    margin: 0.5rem auto 0.1rem;
+}
+.ability h2{
+    font-size: 0.29rem;
+    font-weight: normal;
+    line-height: 0.9rem;
+}
+.ability >div{
+    width: 2.85rem;
+    border: 1px solid #9DB0C9;
+    float: left;
+    height: 4.7rem;
+    margin-bottom: 0.25rem;
+    padding: 0 0.25rem;
+}
+.ability >div:nth-child(2) img{
+    width: 1.2rem;
+    margin: 0.5rem auto 0.25rem;
+}
+.ability >div:nth-child(4) img{
+    width: 0.65rem;
+    margin: 0.6rem auto 0.1rem;
+}
+.ability >div:nth-child(1),.ability >div:nth-child(3){
+    margin-right: 0.25rem;
+}
+/*模块四*/
+.content4_title,.content5_title{
+    width: 100%;
+    background: #008EB2;
+    height: 1.85rem;
+    overflow: hidden;
+}
+.content4 .title_name{
+    font-size: 0.14rem;
+    padding-left: 0.15rem;
+    margin-top: 5.6%;
+}
+.travel{
+    overflow: hidden;
+    background: #008EB2;
+    font-size: 0.22rem;
+    overflow: hidden;
+}
+.travel > div {
+    width: 100%;
+    height: 3.1rem;
+    background: url("http://img.ppx.easyto.com/images/front/imgWap/travel_bg4.png") no-repeat center;
+    background-size: 100% 100%;
+    margin-bottom: 0.25rem;
+}
+.travel > div:nth-child(2){
+    background: url("http://img.ppx.easyto.com/images/front/imgWap/travel_bg1.png") no-repeat center;
+    background-size: 100% 100%;
+}
+.travel > div:nth-child(3){
+    background: url("http://img.ppx.easyto.com/images/front/imgWap/travel_bg2.png") no-repeat center;
+    background-size: 100% 100%;
+}
+.travel > div:nth-child(4){
+    background: url("http://img.ppx.easyto.com/images/front/imgWap/travel_bg3.png") no-repeat center;
+    background-size: 100% 100%;
+}
+.travel h2{
+    font-size: 0.28rem;
+    font-weight: normal;
+    padding-top: 0.9rem;
+    padding-left: 3.8rem;
+    line-height: 0.5rem;
+}
+.travel p{
+    padding-left: 3.8rem;
+    padding-top: 0.1rem;
+}
+/*模块五*/
+.content5_title{
+    background: #00214A;
+}
+.content5 .title_name{
+    padding-left: 10.1%;
+    margin-top: 5.6%;
+}
+/*模块六*/
+.content6 img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+footer{
+    width: 100%;
+    height: 1.39rem;
+    background: #00234B;
+    font-size: 0.18rem;
+    color: #fff;
+    overflow: hidden;
+}
+.foott{
+    margin-top: 0.38rem;
+}
+.foott ul{
+    overflow: hidden;
+    padding-left: 1.74rem;
+}
+.foott ul li{
+    float: left;
+    margin-right: 0.3rem;
+}
+.foott ul li a{
+    color: #fff;
+}
+.foott p{
+    text-align: center;
+}
+
+@media screen and (max-width: 350px) {
+    .skills p {
+        line-height: 0.35rem;
+        padding: 17% 36% 0 13%;
+
+    }
+
+    .skills div:nth-child(5) h3 {
+        line-height: 1rem;
+    }
+
+    .skills div:nth-child(5) p {
+        padding: 20% 20% 0;
+    }
+}
+
+/*皮皮虾*/
+.header_ppx{
+    width: 100%;
+     font-size: 0.24rem;
+    overflow: hidden;
+    padding: 0 0.3rem;
+    background: #fff;
+    height: 0.9rem;
+    color: #595959;
+}
+.header_ppx > .phoneNum{
+    float: right;
+    margin-top: 0.38rem;
+}
+.header_ppx > .logo_ppx{
+    float: left;
+    overflow: hidden;
+    margin-top: 0.05rem;
+}
+.header_ppx img{
+    width: 27.5%;
+    height: auto;
+    margin-top: 0.18rem;
+    float: left;
+}
+.logo_ppx a{
+    display: inline-block;
+    margin: 0.3rem 0 0 0.05rem;
+}
+.header_ppx > .phoneNum em{
+    display: inline-block;
+    width: 0.24rem;
+    height: 0.24rem;
+    background: url("http://img.ppx.easyto.com/images/front/imgPc/ipone_ppx.png") no-repeat center;
+    background-size: 100% 100%;
+    margin-right: 0.2rem;
+}
+.banner{
+    width: 100%;
+    height: 3rem;
+    background: url("http://img.ppx.easyto.com/images/front/imgWap/wap_footer_bg.png") no-repeat center;
+    background-size: 100% 100%;
+    position: relative;
+}
+.banner img{
+    position: absolute;
+    width: 46%;
+    height: auto;
+    bottom: -0.4rem;
+    left: -0.4rem;
+    animation: carRun 1s ease-in-out;
+    -webkit-transform: translate3d(70%, 0, 0);
+    transform: translate3d(70%, 0, 0);
+}
+.ppx_title{
+    width: 100%;
+    overflow: hidden;
+}
+.ppx_title img{
+    margin: 0.93rem auto 0.6rem;
+    width: 25.2%;
+    height: auto;
+}
+.imgs{
+    width: 46%;
+    overflow: hidden;
+    font-size: 0.21rem;
+    margin: 1.7%;
+    float: left;
+}
+.imgs > div{
+    width: 100%;
+    background: #fff;
+    overflow: hidden;
+    margin-bottom: 0.2rem;
+}
+.imgs > div img{
+    width: 90%;
+    height: auto;
+    margin: 5% auto;
+}
+.imgs > div p{
+    padding: 0.3rem 0.25rem;
+    position: relative;
+    color: #2f1a14;
+}
+.imgs > div p span{
+    position: absolute;
+    display: block;
+    width: 1.2rem;
+    height: 0.45rem;
+    background: #F0F0F0;
+    text-align: center;
+    top: -0.38rem;
+    color: #0b0807;
+    left: 50%;
+    margin-left: -0.6rem;
+    line-height: 0.45rem;
+}
+.imgsWrap{
+    padding: 0 0.16rem;
+}
+.about_ppx > img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 0.2rem;
+}
+.about_ppx > img:last-child{
+    margin-bottom: 0;
+}
+.about_ppx .ppx_title img{
+    margin: 0.6rem auto;
+}
+.ppx_footer{
+    background: #fff;
+    padding-top: 0.36rem;
+    overflow: hidden;
+}
+.footerWrap {
+    width: 100%;
+    height: 5.75rem;
+    background: url("http://img.ppx.easyto.com/images/front/imgWap/wap_footer1.png") no-repeat center;
+    background-size: 100% 100%;
+}
+.footerWrap h1{
+    font-size: 0.28rem;
+    text-align: center;
+    color: #fff;
+    padding: 0.66rem 0 0.25rem;
+    text-shadow: 2px 2px 5px rgba(29,50,70,0.4);
+}
+.footerWrap > div{
+    padding: 0 3%;
+    clear: both;
+    overflow: hidden;
+}
+.footerWrap > div > div{
+    width: 44%;
+    overflow: hidden;
+    margin: 2.9%;
+    float: left;
+}
+.footerWrap > div >div:nth-child(1){
+    margin: 10% 0;
+}
+.footerWrap > div > div >img{
+    width: 62%;
+    height: auto;
+    margin: 0 auto;
+}
+.footerWrap > div > div >span{
+    display: block;
+    width: 100%;
+    height: 0.7rem;
+    background: rgba(214,101,150,0.9);
+    border-radius: 0.4rem;
+    color: #fff;
+    line-height: 0.7rem;
+    font-size: 0.21rem;
+    overflow: hidden;
+    letter-spacing: 0;
+    margin-top: 0.4rem;
+}
+.footerWrap > div > div >span em{
+    display: block;
+    float: left;
+    width: 0.36rem;
+    height: 0.45rem;
+    background: url("http://img.ppx.easyto.com/images/front/imgWap/wap_footer4.png") no-repeat center;
+    background-size: 100% 100%;
+    margin: 0.1rem 0.15rem 0.07rem 0.27rem ;
+}
+.footerWrap > div > div:last-child span:last-child em{
+    width: 0.5rem;
+    height: 0.4rem;
+    background: url("android_icon.gif") no-repeat center;
+    background-size: 100% 100%;
+    margin: 0.13rem 0.12rem 0.07rem 0.2rem ;
+}
+.ppx_bottom, .ppx_bottom ul li a{
+    color: #5c5c5c;
+    background: #fff;
+}
+.ppx_bottom .foott ul{
+    padding-left: 1.6rem;
+}
+
+
+@-webkit-keyframes carRun{
+    0% {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform: translate3d(70%, 0, 0);
+        transform: translate3d(70%, 0, 0);
+    }
+}
+@keyframes carRun {
+    0% {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform: translate3d(70%, 0, 0);
+        transform: translate3d(70%, 0, 0);
+    }
+}
+.carRun{
+    -webkit-animation-name: carRun;
+    animation-name: carRun;
+}
